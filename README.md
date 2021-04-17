@@ -35,8 +35,8 @@ Visit the [releases](https://github.com/jachinte/keycloak-as-code/releases) page
 ### Compile, test and run this project
 
 ```
-# Generate JAR files
-./gradlew assemble
+# Generate distribution files
+./gradlew distZip
 
 # Generate a native image
 ./gradlew nativeImage
