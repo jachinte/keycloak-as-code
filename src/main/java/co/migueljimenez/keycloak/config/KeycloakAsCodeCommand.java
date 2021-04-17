@@ -99,7 +99,7 @@ public final class KeycloakAsCodeCommand implements Runnable {
         try {
             final String plain = new KeycloakConfigSubstitution(file)
                 .substitute();
-            if (this.output != null && this.output.isBlank()) {
+            if (this.output != null) {
                 Files.writeString(
                     new File(this.output).toPath(),
                     plain,
