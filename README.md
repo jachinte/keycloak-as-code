@@ -35,7 +35,13 @@ Visit the [releases](/releases) page and download the binary.
 ### Compile, test and run this project
 
 ```
+# Generate JAR files
 ./gradlew assemble
+
+# Generate a native image
+./gradlew nativeImage
+
+# Test and run
 ./gradlew test --info
 ./gradlew run --args="-i path/to/template"
 ```
