@@ -30,7 +30,7 @@ See [Apache Common StringSubstitutor documentation](https://commons.apache.org/p
 
 ### Use this project
 
-Visit the [releases](/releases) page and download the binary.
+Visit the [releases](https://github.com/jachinte/keycloak-as-code/releases) page and download the binary.
 
 ### Compile, test and run this project
 
